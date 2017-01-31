@@ -2,7 +2,7 @@ FROM node:7.4.0
 
 RUN npm install yarn -g
 
-ADD ../* /var/www/graphiql
+ADD ./* /var/www/graphiql
 
 WORKDIR /var/www/graphiql
 
