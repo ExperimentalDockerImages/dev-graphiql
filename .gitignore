@@ -49,3 +49,4 @@ jspm_packages
 .yarn-integrity
 .gitignore
 /doc/
+.env

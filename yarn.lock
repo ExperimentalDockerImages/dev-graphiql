@@ -17,12 +17,6 @@ asap@~2.0.3:
   version "2.0.5"
   resolved "https://registry.yarnpkg.com/asap/-/asap-2.0.5.tgz#522765b50c3510490e52d7dcfe085ef9ba96958f"
 
-babel-runtime@^5.8.20, babel-runtime@^5.8.x:
-  version "5.8.38"
-  resolved "https://registry.yarnpkg.com/babel-runtime/-/babel-runtime-5.8.38.tgz#1c0b02eb63312f5f087ff20450827b425c9d4c19"
-  dependencies:
-    core-js "^1.0.0"
-
 bytes@2.4.0:
   version "2.4.0"
   resolved "https://registry.yarnpkg.com/bytes/-/bytes-2.4.0.tgz#7d97196f9d5baf7f6935e25985549edd2a6c2339"
@@ -68,6 +62,10 @@ depd@~1.1.0:
 destroy@~1.0.4:
   version "1.0.4"
   resolved "https://registry.yarnpkg.com/destroy/-/destroy-1.0.4.tgz#978857442c44749e4206613e37946205826abd80"
+
+dotenv@^4.0.0:
+  version "4.0.0"
+  resolved "https://registry.yarnpkg.com/dotenv/-/dotenv-4.0.0.tgz#864ef1379aced55ce6f95debecdce179f7a0cd1d"
 
 ee-first@1.1.1:
   version "1.1.1"
@@ -175,20 +173,6 @@ graphiql@^0.8.1:
     codemirror-graphql "^0.5.9"
     marked "^0.3.5"
 
-graphql-schema-from-introspection@^0.1.2:
-  version "0.1.2"
-  resolved "https://registry.yarnpkg.com/graphql-schema-from-introspection/-/graphql-schema-from-introspection-0.1.2.tgz#a8eeac6ba2bfcdaac1ea5a0b17b41d5914a87e9c"
-  dependencies:
-    babel-runtime "^5.8.20"
-    graphql "^0.4.2"
-    lodash "^3.10.1"
-
-graphql@^0.4.2:
-  version "0.4.18"
-  resolved "https://registry.yarnpkg.com/graphql/-/graphql-0.4.18.tgz#80b923f2d801e5373df99316b9c5829f206c482c"
-  dependencies:
-    babel-runtime "^5.8.x"
-
 graphql@^0.8.0:
   version "0.8.2"
   resolved "https://registry.yarnpkg.com/graphql/-/graphql-0.8.2.tgz#eb1bb524b38104bbf2c9157f9abc67db2feba7d2"
@@ -233,10 +217,6 @@ iterall@1.0.2:
 js-tokens@^3.0.0:
   version "3.0.0"
   resolved "https://registry.yarnpkg.com/js-tokens/-/js-tokens-3.0.0.tgz#a2f2a969caae142fb3cd56228358c89366957bd1"
-
-lodash@^3.10.1:
-  version "3.10.1"
-  resolved "https://registry.yarnpkg.com/lodash/-/lodash-3.10.1.tgz#5bf45e8e49ba4189e17d482789dfd15bd140b7b6"
 
 lodash@^4.17.2:
   version "4.17.4"

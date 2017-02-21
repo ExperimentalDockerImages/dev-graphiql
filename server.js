@@ -8,9 +8,11 @@
 
 const express = require('express');
 const graphiql = require('express-graphiql-toolbox');
+require('dotenv');
 
 const app = express();
 
 // You can use any of the 2 versions
-app.use('/', graphiql({ endpoint: 'http://memoria.dev:81' }));
-app.listen(8080, () => console.log('Started on http://localhost:8080/'));
+app.use('/', graphiql({ endpoint: process.env.endpoint | 'http://localhost:8081/' }));
+console.log('Listening to  on ' + process.env.endpoint | 'http://localhost:8081/');
+app.listen(process.env.local_port | 8080, () => console.log('Started on http://localhost:8080/'));
