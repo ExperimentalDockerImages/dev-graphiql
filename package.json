@@ -8,8 +8,8 @@
     "express": "^4.13.3",
     "express-graphiql-toolbox": "^0.1.0",
     "express-graphql": "^0.6.1",
-    "graphiql": "^0.8.1",
-    "graphql": "^0.8.0"
+    "graphiql": "^0.9.3",
+    "graphql": "^0.9.1"
   },
   "optionalDependencies": {
     "react": "^15.4.2",
